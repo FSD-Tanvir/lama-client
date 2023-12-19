@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Root from "../Layouts/Root";
 import Home from "../Pages/Home/Home";
-import MyProjects from "../Pages/MyProjects/MyProjects";
+import CreateProject from "../Pages/CreateProject/createProject";
 
 const router = createBrowserRouter([
   {
@@ -13,7 +13,7 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home />,
       },
-      { path: "/my-projects", element: <MyProjects /> },
+      { path: "/create-project", element: <CreateProject/> },
     ],
   },
 ]);

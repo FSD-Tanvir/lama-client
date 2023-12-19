@@ -30,8 +30,11 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <Link to={"/my-projects"} className="text-primary-color font-semibold">
-                My Projects
+              <Link
+                to={"/create-project"}
+                className="text-purple-700 font-semibold"
+              >
+                Create Project
               </Link>
             </li>
           </ul>
@@ -45,10 +48,10 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1">
           <li>
             <Link
-              to={"/my-projects"}
-              className="text-primary-color font-semibold"
+              to={"/create-project"}
+              className="text-purple-700 font-semibold"
             >
-              My Projects
+              Create Project
             </Link>
           </li>
         </ul>
