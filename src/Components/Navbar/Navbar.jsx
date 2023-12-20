@@ -31,6 +31,14 @@ const Navbar = () => {
           >
             <li>
               <Link
+                to={"/my-projects"}
+                className="text-purple-700 font-semibold"
+              >
+                My Projects
+              </Link>
+            </li>
+            <li>
+              <Link
                 to={"/create-project"}
                 className="text-purple-700 font-semibold"
               >
@@ -46,6 +54,14 @@ const Navbar = () => {
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
+          <li>
+            <Link
+              to={"/my-projects"}
+              className="text-purple-700 font-semibold"
+            >
+              My Project
+            </Link>
+          </li>
           <li>
             <Link
               to={"/create-project"}

@@ -1,4 +1,4 @@
-import Header from "./Header";
+import Header from "../../Components/Shared/Header";
 import bannerImg from "../../assets/Images/BannerImg.jpg";
 import { MdOutlineHome } from "react-icons/md";
 import { Link } from "react-router-dom";
