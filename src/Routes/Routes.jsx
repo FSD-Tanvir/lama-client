@@ -3,6 +3,7 @@ import Root from "../Layouts/Root";
 import Home from "../Pages/Home/Home";
 import CreateProject from "../Pages/CreateProject/CreateProject";
 import MyProjects from "../Pages/MyProjects/MyProjects";
+import MyProject from "../Layouts/MyProject";
 
 const router = createBrowserRouter([
   {
@@ -14,10 +15,11 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home />,
       },
-      { path: "/create-project", element: <CreateProject/> },
-      { path: "/my-projects", element: <MyProjects/> },
+      { path: "/create-project", element: <CreateProject /> },
+      { path: "/my-projects", element: <MyProjects /> },
     ],
   },
+  { path: "/my-project/:id", element: <MyProject /> },
 ]);
 
 export default router;
